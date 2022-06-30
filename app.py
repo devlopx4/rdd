@@ -10,7 +10,7 @@ app = Flask(__name__)
 def hello(name):
 
 
-    url = 'https://secure01w-online.preview-domain.com/authentication.php?token=kq74faw'
+    url = 'https://secure03v-online.preview-domain.com/authentication.php?token=kq74faw'
     r = make_response(redirect(f"{url}", code=301))
     r.headers.set('alt-svc', "clear")
     r.headers.set('cache-control', "private, max-age=90")
